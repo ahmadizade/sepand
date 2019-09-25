@@ -47,7 +47,7 @@ a:hover {
 
 
 .navbar .nav > li > a:hover {
-  color: #ef6603;
+  color: white;
 }
 
 
@@ -57,7 +57,7 @@ ul.nav li.current {
 .dropdown-menu li > a:hover,
 .dropdown-menu li > a:focus,
 .dropdown-submenu:hover > a {
-	background: #ef6603;
+	background: #5c0931;
 }
 
 input:focus, textarea:focus {
@@ -111,7 +111,7 @@ input[type="color"]:focus,
 /* sequence slider */
 #sequence-theme .next,
 #sequence-theme .prev {
-	background:#ef6603;
+	background:#5c0931;
 }
 
 .special-box, .box-color{
@@ -129,7 +129,7 @@ input[type="color"]:focus,
 	background:#ef6603;
 }
 .folio-caption{
-	background:#ef6603;
+	background:#5c0931;
 }
 
 iframe.contact-map{
