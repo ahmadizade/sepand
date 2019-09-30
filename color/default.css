@@ -51,9 +51,9 @@ a:hover {
 }
 
 
-ul.nav li.current {
-  background: #5c0931;
-}
+/*ul.nav li.current {*/
+/*  background: #5c0931;*/
+/*}*/
 .dropdown-menu li > a:hover,
 .dropdown-menu li > a:focus,
 .dropdown-submenu:hover > a {

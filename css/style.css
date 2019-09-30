@@ -6,9 +6,19 @@ body {
     font-family: iranyekan, icomoon, sans-serif !important;
 }
 .logo-home {
+    /*display: none;*/
     width: 79px;
+}
+.logo{
     position: absolute;
-    left: 16%;
+    left: 24%;
+}
+.logo-text {
+    text-align: center;
+    color: white;
+    position: absolute;
+    left: 20%;
+    top: 27px;
 }
 /* ==== additional style for bootstrap ==== */
 .well.well-primary, .bg-primary, .box-primary {
@@ -90,7 +100,7 @@ header{
     font-size: 15px;
     float: none;
     color: yellow;
-	line-height:1em;
+	/*line-height:1em;*/
     text-decoration: none;
     text-shadow:none;
     z-index:100;
@@ -1556,6 +1566,23 @@ section#featured{
     border-top: 11px solid transparent;
     border-right: 410px solid #5c0931;
     border-bottom: 15px solid transparent;
+}
+.footer {
+    position: relative;
+}
+.information {
+    position: absolute;
+    right: 14%;
+    top: 33%;
+}
+.gold {
+    color: gold;
+    /*text-shadow: 0px 0px 20px gold;*/
+}
+
+.center {
+    display: flex;
+    justify-content: center;
 }
 
 /*++++++++++++++++++++++++++ ME +++++++++++++++++++++++++++++++++++*/
