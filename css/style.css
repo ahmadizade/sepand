@@ -7,7 +7,7 @@ body {
 }
 .logo-home {
     /*display: none;*/
-    width: 105px;
+    width: 84px;
 }
 .logo{
     position: absolute;
@@ -92,7 +92,6 @@ header{
 
 .navbar .nav {
   margin: 10px 0 0 0;
-
 }
 
 .navbar .nav > li > a {
@@ -100,26 +99,27 @@ header{
     font-size: 15px;
     float: none;
     color: yellow;
-	/*line-height:1em;*/
+    /*line-height:1em;*/
     text-decoration: none;
     text-shadow:none;
     z-index:100;
-	outline:0;
+    outline:0;
 }
 
 .navbar .nav > li > a:focus,
 .navbar .nav > li > a:hover {
+  border-bottom: solid 2px white;
   text-decoration: none;
   color:#fff;
   background-color: transparent;
-  -webkit-border-radius: 25px;
-     -moz-border-radius: 25px;
-          border-radius: 25px;
-	-webkit-transition: all 0.2s ease;
-	-moz-transition: all 0.2s ease-in-out;
-	-o-transition: all 0.2s ease-in-out;
-	-ms-transition: all 0.2s ease-in-out;
-	transition: all 0.2s ease-in-out;
+  /*-webkit-border-radius: 25px;*/
+  /*-moz-border-radius: 25px;*/
+  /*border-radius: 25px;*/
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .navbar .nav > .current {
@@ -167,9 +167,9 @@ ul.nav li ul.dropdown-menu {
 	margin-top:20px;
 }
 
-.default {
-	background:url(../img/nav-default-bg.png) repeat;
-}
+/*.default {*/
+/*	background:url(../img/nav-default-bg.png) repeat;*/
+/*}*/
 
 .fixed {
   position: fixed;
@@ -1428,7 +1428,7 @@ img.pull-left{
 	top:0;
 	left: 0;
 	width: 100%;
-		padding-right:20px;
+    padding-right:20px;
 	box-shadow: 0 0 40px #222;
 	-webkit-box-shadow: 0 0 40px #222;
 	-moz-box-shadow: 0 0 40px #222;
@@ -1698,7 +1698,39 @@ section#featured{
 .gold-txt {
     color: gold;
 }
-
-
-
+.aboutus {
+    line-height: 1.9;
+    text-align: justify;
+}
+.aboutus > p {
+    line-height: 1.9;
+}
+.flag {
+    width: 100px;
+    height: 50px;
+}
 /*++++++++++++++++++++++++++ ME +++++++++++++++++++++++++++++++++++*/
+
+.wave-decoration.is-bottom {
+    top: auto;
+    bottom: 0;
+}
+.wave-decoration {
+    position: absolute;
+    top: 0;
+    z-index: 5;
+    pointer-events: none;
+    width: 2000px;
+    left: 50%;
+    margin: 0 0 0 -1000px;
+}
+.wave-decoration.is-bottom svg {
+    margin: 0 -2px -6px;
+}
+svg:not(:root) {
+    overflow: hidden;
+}
+.wave-decoration svg {
+    vertical-align: bottom;
+    margin: -2px -2px 0;
+}
