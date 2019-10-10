@@ -4,6 +4,7 @@
 @import url(./fonts.css);
 body {
     font-family: iranyekan, icomoon, sans-serif !important;
+    background-color: #f7f7f7;
 }
 .logo-home {
     /*display: none;*/
@@ -202,10 +203,6 @@ section {
 
 /* ==== headline ==== */
 
-/*???????????????????????????????????????????????????????WAVE??????????????????????????????????????????????*/
-
-
-/*???????????????????????????????????????????????????????WAVE??????????????????????????????????????????????*/
 
 .headline {
 	text-align:center;
@@ -684,7 +681,6 @@ section#featured p  {
 
 
 /* ================= About ============================= */
-
 .ri-grid{
 	margin: 0 auto 30px;
 	position: relative;
@@ -822,6 +818,7 @@ section#featured p  {
 
 /* ================= services ============================ */
 section#services {
+    position: relative;
 	background: #000 url(../img/bg/bg-1.jpg) 50% 0 no-repeat;
 	width:100%;
 	height:auto;
@@ -1507,6 +1504,7 @@ img.pull-left{
 	}
 
 section#featured{
+    position: relative;
 	padding:180px 0 20px;
 }
 
@@ -1698,6 +1696,7 @@ section#featured{
 }
 .img-text h1 a {
     color: gold;
+    text-decoration: none;
 }
 .aboutus {
     line-height: 1.9;
@@ -1711,20 +1710,21 @@ section#featured{
     height: 50px;
 }
 
-/*++++++++++++++++++++++++++ ME +++++++++++++++++++++++++++++++++++*/
+/*++++++++++++++++++++++++++ WAVE 1 +++++++++++++++++++++++++++++++++++*/
 
 .wave-decoration.is-bottom {
     top: auto;
     bottom: 0;
+
 }
 .wave-decoration {
     position: absolute;
-    top: 0;
-    z-index: 5;
+    /*top: 0;*/
+    z-index: 10000;
     pointer-events: none;
-    width: 2000px;
-    left: 50%;
-    margin: 0 0 0 -1000px;
+    width: 100%;
+    right: 0;
+    /*margin: 0 0 0 -1000px;*/
 }
 .wave-decoration.is-bottom svg {
     margin: 0 -2px -6px;
@@ -1734,5 +1734,65 @@ svg:not(:root) {
 }
 .wave-decoration svg {
     vertical-align: bottom;
+    margin: -2px 0 0 0;
+}
+/*++++++++++++++++++++++++++++++++++WAVW 1+++++++++++++++++++++++++++++++++++++++*/
+
+.visabox {
+    position: relative;
+    z-index: 0;
+    padding: 0;
+    /*margin: 0 30px;*/
+    /*width: 21%;*/
+    /*height: 219px;*/
+    /*background-color: white;*/
+    border-radius: 5px;
+    box-shadow: 5px 0 5px -5px black,-5px 0 5px -5px black;
+    /*overflow: hidden;*/
+}
+.visabox img {
+    width: 100%;
+    display: block;
+}
+.statusbox {
+    position: absolute;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.5);
+    width: 160px;
+    height: 45px;
+    top: 60%;
+    right: 0;
+    text-align: center;
+}
+.statusbox a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    line-height: 45px;
+}
+/*++++++++++++++++++++++++++++++++++Visa BOX+++++++++++++++++++++++++++++++++++++++*/
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++ WAVE 2 ++++++++++++++++++++++++++++++++++++++++*/
+.wave-decoration.is-reflection {
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+.wave-decoration {
+    position: absolute;
+    top: 0;
+    z-index: 20000;
+    pointer-events: none;
+    width: 2000px;
+    left: 50%;
+    margin: 0 0 0 -1000px;
+}
+/*enable-background: new 0 0 1998 109;*/
+svg:not(:root) {
+    overflow: hidden;
+}
+.wave-decoration svg {
+    vertical-align: bottom;
     margin: -2px -2px 0;
 }
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++ WAVE 2 ++++++++++++++++++++++++++++++++++++++++*/
+
