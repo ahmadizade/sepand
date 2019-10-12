@@ -7,19 +7,24 @@ body {
     background-color: #f7f7f7;
 }
 .logo-home {
-    /*display: none;*/
     width: 84px;
+    margin: 0;
+    padding: 0;
 }
 .logo{
-    position: absolute;
-    left: 24%;
+    display: inline;
+    /*position: absolute;*/
+    /*left: 24%;*/
 }
 .logo-text {
+    display: inline;
     text-align: center;
     color: white;
-    position: absolute;
-    left: 20%;
-    top: 27px;
+    /*position: absolute;*/
+}
+
+.left-navbar {
+    /*float: left;*/
 }
 /* ==== additional style for bootstrap ==== */
 .well.well-primary, .bg-primary, .box-primary {
@@ -88,7 +93,13 @@ header{
 }
 
 .navbar {
-	padding:20px 0 20px;
+    /*background-color: #48484c;*/
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: absolute;
+    padding: 20px 0 20px;
+    z-index: 2000;
 }
 
 .navbar .nav {
@@ -106,10 +117,11 @@ header{
     z-index:100;
     outline:0;
 }
-
+.select a {
+    color: #5c0931;
+}
 .navbar .nav > li > a:focus,
 .navbar .nav > li > a:hover {
-  border-bottom: solid 2px white;
   text-decoration: none;
   color:#fff;
   background-color: transparent;
@@ -443,7 +455,6 @@ ul.the-icons {
 [class^="icon-"],
 [class*=" icon-"] {
     float:none;
-
 }
 
 .icon-square,
@@ -1758,17 +1769,19 @@ svg:not(:root) {
     position: absolute;
     z-index: 1;
     background: rgba(0, 0, 0, 0.5);
-    width: 160px;
-    height: 45px;
-    top: 60%;
+    width: 100%;
+    line-height: 45px;
+    bottom: 0;
     right: 0;
     text-align: center;
 }
 .statusbox a {
     text-decoration: none;
     color: white;
-    font-size: 20px;
-    line-height: 45px;
+    font-size: 15px;
+}
+.statusbox a:hover {
+    color: gold;
 }
 /*++++++++++++++++++++++++++++++++++Visa BOX+++++++++++++++++++++++++++++++++++++++*/
 
@@ -1796,3 +1809,6 @@ svg:not(:root) {
 }
 /*+++++++++++++++++++++++++++++++++++++++++++++++++++ WAVE 2 ++++++++++++++++++++++++++++++++++++++++*/
 
+.null {
+    height: 150px;
+}
