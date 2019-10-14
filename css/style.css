@@ -88,9 +88,9 @@ blockquote {
 	margin-bottom:0;
 }
 
-header{
-	position:relative;
-}
+/*header{*/
+/*	position:relative;*/
+/*}*/
 
 .navbar {
     /*background-color: #48484c;*/
@@ -206,6 +206,7 @@ nav select {
 }
 section {
 	padding:70px 0 40px 0;
+    overflow: hidden;
 }
 
 /* ==== general main content style ==== */
@@ -1589,6 +1590,7 @@ section#featured{
 .center {
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 .flex-column {
     display: flex;
@@ -1810,5 +1812,46 @@ svg:not(:root) {
 /*+++++++++++++++++++++++++++++++++++++++++++++++++++ WAVE 2 ++++++++++++++++++++++++++++++++++++++++*/
 
 .null {
+    display: block;
     height: 150px;
 }
+.topnav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background-color: #242428;
+}
+.topnav a {
+    display: block;
+    margin: 0 20px;
+    text-decoration: none;
+    color: white;
+}
+.header-btn {
+    margin-right: 130px;
+}
+.header-btn img {
+    margin-top: 9px;
+    width: 26px;
+}
+.header-btn p {
+    display: inline;
+    color: white;
+}
+.topnav-links {
+    float: left;
+}
+.topnav-links ul {
+    list-style: none;
+}
+.topnav-links ul li {
+    float: left;
+    display: block;
+}
+.topnav-links ul li > a {
+    display: block;
+}
+
