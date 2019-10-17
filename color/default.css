@@ -47,7 +47,11 @@ a:hover {
 
 
 .navbar .nav > li > a:hover {
-  color: white;
+  	color: #7f093f;
+	background-color: #5c0931;
+	border-radius: 20px;
+	color: white;
+	padding: 20px 20px;
 }
 
 
