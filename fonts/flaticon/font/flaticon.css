@@ -1,6 +1,6 @@
 	/*
   	Flaticon icon font: Flaticon
-  	Creation date: 18/07/2019 07:36
+  	Creation date: 19/10/2019 06:01
   	*/
 
 @font-face {
@@ -25,19 +25,38 @@
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
 [class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
   font-family: Flaticon;
-        font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-.flaticon-car:before { content: "\f100"; }
-.flaticon-car-1:before { content: "\f101"; }
-.flaticon-valet:before { content: "\f102"; }
-.flaticon-valet-1:before { content: "\f103"; }
-.flaticon-traffic:before { content: "\f104"; }
-.flaticon-key:before { content: "\f105"; }
+    font-size: 23px;
+    font-style: normal;
+    margin-left: 1px;
+    }
+.flaticon-aeroplane:before { content: "\f100"; }
+.flaticon-hot-air-balloon:before { content: "\f101"; }
+.flaticon-zeppelin:before { content: "\f102"; }
+.flaticon-aeroplane-1:before { content: "\f103"; }
+.flaticon-aeroplane-2:before { content: "\f104"; }
+.flaticon-stewardess:before { content: "\f105"; }
+.flaticon-aeroplane-3:before { content: "\f106"; }
+.flaticon-pilot:before { content: "\f107"; }
+.flaticon-hangar:before { content: "\f108"; }
+.flaticon-parachute:before { content: "\f109"; }
+.flaticon-wind-socket:before { content: "\f10a"; }
+.flaticon-museum:before { content: "\f10b"; }
+.flaticon-email:before { content: "\f10c"; }
+.flaticon-send:before { content: "\f10d"; }
+.flaticon-mail:before { content: "\f10e"; }
+.flaticon-address:before { content: "\f10f"; }
+.flaticon-mail-1:before { content: "\f110"; }
+.flaticon-mailbox:before { content: "\f111"; }
+.flaticon-chat:before { content: "\f112"; }
+.flaticon-telephone:before { content: "\f113"; }
+.flaticon-man:before { content: "\f114"; }
+.flaticon-temple:before { content: "\f115"; }
+.flaticon-hyderabad-charminar:before { content: "\f116"; }
+.flaticon-temple-1:before { content: "\f117"; }
+.flaticon-gate-of-india:before { content: "\f118"; }
+.flaticon-harmandir-sahib:before { content: "\f119"; }
+.flaticon-india:before { content: "\f11a"; }
+.flaticon-itinerary:before { content: "\f11b"; }
+.flaticon-money:before { content: "\f11c"; }
+.flaticon-daily-specials-board:before { content: "\f11d"; }
+.flaticon-contact:before { content: "\f11e"; }

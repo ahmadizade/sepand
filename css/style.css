@@ -2,6 +2,7 @@
 /* ==== overwrite bootstrap standard ==== */
 @import url('overwrite.css');
 @import url(./fonts.css);
+
 body {
     font-family: iranyekan, icomoon, sans-serif !important;
     background-color: #f7f7f7;
@@ -94,22 +95,31 @@ blockquote {
 /*}*/
 
 .navbar {
-    width: 100%;
-    position: absolute;
-    /*padding: 10px 0 20px;*/
+    /*width: 100%;*/
+    /*position: absolute;*/
+    /*background-color: #FFFFFF;*/
+    font-family: iranyekan, icomoon, sans-serif !important;
+
     z-index: 200000;
 }
-
+.back-header {
+    position: relative;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 70px;
+    background-color: #fff;
+    line-height: 1.5;
+    color: #5c0931;
+}
 .navbar .nav {
   margin: 10px 0 0 0;
 }
-.line {
-    width: 120px;
-    height: 3px;
-    background-color: #5bb75b;
-}
+
 .navbar .nav > li > a {
-    line-height: 0px;
+    margin-left: 5px;
+    line-height: 0;
     font-family: iranyekan, icomoon, sans-serif !important;
     font-size: 15px;
     float: none;
@@ -119,6 +129,14 @@ blockquote {
     text-shadow:none;
     z-index:100;
     outline:0;
+}
+.navbar .nav > li > a > i {
+    font-family: iranyekan, icomoon, sans-serif !important;
+}
+.myicon {
+    font-size: 17px !important;
+    color: #5c0931;
+    display: inline !important;
 }
 .select {
     color: #5c0931;
@@ -1819,21 +1837,27 @@ svg:not(:root) {
     height: 150px;
 }
 .topnav{
-    display: none;
+    display: flex;
+    line-height: 50px;
     align-items: center;
     justify-content: space-between;
     position: relative;
     width: 100%;
     height: 50px;
-    /*background-color: #141010;*/
-    /*z-index: 1100000;*/
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(80,9,121,1) 35%, rgba(92,9,49,1) 100%);
+    background-color: #5C0931;
+    z-index: 11000000;
+    -webkit-box-shadow: 0px 5px 15px 4px rgba(0,0,0,0.73);
+    box-shadow: 0px 5px 15px 4px rgba(0,0,0,0.73);
 }
 .topnav a {
+    line-height: 50px;
     margin: 0 20px;
     text-decoration: none;
+    color: gold;
+}
+.topnav > a:hover {
     color: white;
+    text-decoration: none;
 }
 .topnav-links {
     margin-left: 10px;
@@ -1846,7 +1870,7 @@ svg:not(:root) {
 }
 .topnav-links p {
     display: inline;
-    color: white;
+    color: gold;
 }
 .topnav-links h6 {
     position: absolute;
@@ -1871,7 +1895,7 @@ svg:not(:root) {
     padding: 10px 0;
     right: 0;
     z-index: 1;
-    background-color: #680747;
+    background-color: gray;
 }
 .shape-svg2 {
     position: absolute;
