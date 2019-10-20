@@ -617,12 +617,21 @@ section#featured {
 	padding:140px 0 30px;
 }
 
-@media (min-width: 1024px) {
-	section#featured {
-		background-attachment: fixed;
-	}
+
+/*@media (min-width: 1024px) {*/
+/*    section#links {*/
+/*        background-attachment: fixed;*/
+/*    }*/
+/*}*/
+section#featured  {
+    text-align:center;
 }
 
+@media (min-width: 1024px) {
+    section#featured {
+        background-attachment: fixed;
+    }
+}
 section#featured  {
 	text-align:center;
 }
@@ -1906,3 +1915,44 @@ svg:not(:root) {
     z-index: 1;
     background-color: #680747;
 }
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++SECTION LINKS ++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+    .footer-links {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: black;
+    }
+    .footer-top {
+        padding: 0;
+        margin-top: 0;
+        display:flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-left: 20px;
+    }
+    .footer-ul {
+        height: 200px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++SECTION LINKS ++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
