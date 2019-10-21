@@ -20,7 +20,7 @@ $(document).ready(function(){
     });
 
 $(document).ready(function() {
-    $("#footer-top-1").click(function () {
+    $("#footer-top-1").ondblclick(function () {
         $(#degree).toggleClass('rotate');
     });
 });
