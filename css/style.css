@@ -1518,9 +1518,9 @@ img.pull-left{
 	  margin-top:20px;
 	  margin-right:20px;
 	  line-height:30px;
-  -webkit-border-radius: 4px;
+     -webkit-border-radius: 4px;
      -moz-border-radius: 4px;
-          border-radius: 4px;
+        border-radius: 4px;
 		font-size:14px;
     }
 
@@ -1981,7 +1981,6 @@ svg:not(:root) {
     }
     .footer-header::before {
         content: '\e901';
-        /*font-family: icomoon;*/
         position: absolute;
         color: white;
         left: 15px;
@@ -2068,10 +2067,17 @@ svg:not(:root) {
     text-align:center;
     line-height:40px;
     font-style:normal;
-    color: gold;
+    color: #5c0931;
 }
 
-
+.rotated {
+    color: red;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
 
 
 

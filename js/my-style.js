@@ -18,9 +18,22 @@ $(document).ready(function(){
     $("#footer-top-5").click(function(){
         $("#footer-ul-5 li").toggle(1000);
     });
+    // $(".visabox").mouseover(function(){
+    //     $(".statusbox").animate({height:'100%',color:'gold'},3000)
+    // });
+    // $(".visabox").mouseleave(function(){
+    //     $(".statusbox").animate({height:'45px',color:'gold'},3000)
+    // });
+    //
+    //
+    //
+    //
 
-$(document).ready(function() {
-    $("#footer-top-1").ondblclick(function () {
-        $(#degree).toggleClass('rotate');
-    });
-});
+
+
+
+//     $(document).ready(function(){
+// $("#footer-top-1").click(function(){
+//     $(".footer-header").toggleClass('rotated');
+// });
+// });
