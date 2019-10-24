@@ -1629,9 +1629,12 @@ section#featured{
 }
 .footer {
     position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 .information {
-    margin-right: 20px;
+    /*margin-right: 20px;*/
 }
 .gold {
     color: gold;
@@ -1966,6 +1969,7 @@ svg:not(:root) {
 
     .footer-links {
         display: flex;
+        flex-direction: row;
         justify-content: center;
         align-items: center;
         color: black;

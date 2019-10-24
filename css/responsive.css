@@ -1,14 +1,10 @@
 @media (max-width: 767px) {
-.logo-home {
-    display: none;
+.footer-links {
+    flex-direction: column;
 }
 
-
-
-
-
-
 }
+
 
 
 
