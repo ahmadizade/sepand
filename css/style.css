@@ -1570,7 +1570,7 @@ img.pull-left{
 
 section#featured{
     position: relative;
-	padding:180px 0 20px;
+	/*padding:180px 0 20px;*/
 }
 
 #sequence-theme #sequence {
@@ -1582,9 +1582,9 @@ section#featured{
 	display:none;
 }
 
-.section {
-	padding:180px 0 40px 0;
-}
+/*.section {*/
+	/*padding:180px 0 40px 0;*/
+/*}*/
 
 	ul.filter li {
 		margin-bottom:10px;
@@ -1594,7 +1594,6 @@ section#featured{
 		line-height:1.5em;
 	}
 }
-
 
 /*++++++++++++++++++++++++++ ME +++++++++++++++++++++++++++++++++++*/
 
@@ -2003,10 +2002,17 @@ svg:not(:root) {
         height: 200px;
         margin-top: 50px;
         margin-right: 18px;
+        letter-spacing: -.2px;
     }
+.footer-ul ul li {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
     .footer-ul ul li > a {
         color: white;
         font-size: 15px;
+        transition: .3s ease-in-out;
     }
 .footer-ul ul li > a:hover {
     color: gold;
