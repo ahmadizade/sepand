@@ -12,16 +12,27 @@
     /*#footer-ul-1 , #footer-ul-2, #footer-ul-3, #footer-ul-4, #footer-ul-5 {*/
         /*visibility: hidden;*/
     /*}*/
-
+    .center {
+        flex-direction: column;
+    }
+ .visabox {
+     margin: 0 60px;
+    }
+ .null {
+     display: none;
+ }
 }
 
 
 
 
 
+@media (max-width: 480px) {
+    .section#featured {
+        /*padding: 0;*/
+    }
 
-@media (max-width: 480px) {}
-.section#featured {
-   /*padding: 0;*/
-
+    section {
+        /*padding: 0;*/
+    }
 }

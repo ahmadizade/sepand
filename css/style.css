@@ -625,7 +625,7 @@ section#featured {
 	width:100%;
 	height:auto;
 	margin:0;
-	padding:140px 0 30px;
+	/*padding:140px 0 30px;*/
 }
 
 
@@ -1643,6 +1643,8 @@ section#featured{
 .center {
     display: flex;
     justify-content: center;
+    flex-direction: row;
+    align-items: center;
     width: 100%;
 }
 .flex-column {
